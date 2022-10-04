@@ -27,6 +27,6 @@ public class buttonHandler : MonoBehaviour
         variableHandler.vPasser.playerName1 = p1Name.text;
         variableHandler.vPasser.playerName2 = p2Name.text;
         variableHandler.vPasser.playerHealth = System.Convert.ToInt32(pHealth.text);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 }

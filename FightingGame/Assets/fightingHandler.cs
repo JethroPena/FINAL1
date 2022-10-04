@@ -90,6 +90,7 @@ public class fightingHandler : MonoBehaviour
                 rawAttack.SetActive(false);
             }
     }
+    
 
     // PLAYER ONE BUTTON ATTACKS
     public void playerOneLowPunch()
@@ -176,8 +177,8 @@ public class fightingHandler : MonoBehaviour
         specialTwo.interactable = false;
         Debug.Log("clack");
     }
-
     public IEnumerator delayProcess(int playerNumber, int accuracy,int attackNumber)
+    
     {   
         int x = Random.Range(0,101);
         // PLAYER 1 ATK AND MISS
@@ -395,6 +396,16 @@ public class fightingHandler : MonoBehaviour
 
     }
 
+    public void exiT(){
+        StartCoroutine(exitBttn());
+        Debug.Log("Exit");
+    }
+
+    IEnumerator exitBttn(){
+        yield return new WaitForSeconds(.8f);
+        SceneManager.LoadScene(0);
+    }
+    
 }
                 
 
