@@ -1063,7 +1063,7 @@ GameObject:
   - component: {fileID: 520836942}
   - component: {fileID: 520836941}
   m_Layer: 5
-  m_Name: EXIT
+  m_Name: QUITBTTN
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1078,7 +1078,7 @@ RectTransform:
   m_GameObject: {fileID: 520836939}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.6861902, y: 1.6861902, z: 1.6861902}
+  m_LocalScale: {x: 1.9246175, y: 1.9246175, z: 1.9246175}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1726014405}
@@ -1136,7 +1136,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 827996545}
         m_TargetAssemblyTypeName: fightingHandler, Assembly-CSharp
-        m_MethodName: exiT
+        m_MethodName: quiT
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3684,7 +3684,7 @@ RectTransform:
   m_GameObject: {fileID: 1726014404}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9844575, y: 1.1414, z: 1.1414}
+  m_LocalScale: {x: 0.7756147, y: 0.8992634, z: 0.8992634}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 520836940}
@@ -3715,7 +3715,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: EXIT
+  m_text: QUIT GAME
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ee309d6288366c34eb0fddcce6583c07, type: 2}
   m_sharedMaterial: {fileID: 8408044327845767114, guid: ee309d6288366c34eb0fddcce6583c07, type: 2}
@@ -3724,8 +3724,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279433471
-  m_fontColor: {r: 1, g: 0.9725253, b: 0.069811285, a: 1}
+    rgba: 4279107583
+  m_fontColor: {r: 1, g: 1, b: 0.050980393, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3742,13 +3742,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 10
+  m_fontSizeBase: 10
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 17
+  m_fontStyle: 33
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535

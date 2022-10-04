@@ -384,28 +384,27 @@ public class fightingHandler : MonoBehaviour
         {
             variableHandler.vPasser.winner = 2;
             yield return new WaitForSeconds(.1f);
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(3);
         }
 
         if (playerTwoHP <= 0)
         {
             variableHandler.vPasser.winner = 1;
             yield return new WaitForSeconds(.1f);
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(3);
         }
 
     }
 
-    public void exiT(){
-        StartCoroutine(exitBttn());
-        Debug.Log("Exit");
+    public void quiT(){
+        StartCoroutine(quitBttn());
+        Debug.Log("QUIT");
     }
 
-    IEnumerator exitBttn(){
-        yield return new WaitForSeconds(.8f);
+    IEnumerator quitBttn(){
+        yield return new WaitForSeconds(.1f);
         SceneManager.LoadScene(0);
     }
-    
 }
                 
 

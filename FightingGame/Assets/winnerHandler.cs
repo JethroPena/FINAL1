@@ -29,7 +29,7 @@ public class winnerHandler : MonoBehaviour
         {
             winnerPlayer.text = variableHandler.vPasser.playerName1;
             variableHandler.vPasser.winner = 1;
-            yield return new WaitForSeconds(.9f);
+            yield return new WaitForSeconds(1f);
             SceneManager.LoadScene(4);
         }
 
@@ -37,7 +37,7 @@ public class winnerHandler : MonoBehaviour
         {
             winnerPlayer.text = variableHandler.vPasser.playerName2;
             variableHandler.vPasser.winner = 2;
-            yield return new WaitForSeconds(.9f);
+            yield return new WaitForSeconds(1f);
             SceneManager.LoadScene(5);
         }
     }
