@@ -613,7 +613,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 827996545}
         m_TargetAssemblyTypeName: fightingHandler, Assembly-CSharp
-        m_MethodName: playerTwoLowKick
+        m_MethodName: playerTwoHighKick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1681,7 +1681,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 728956467}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: 494839dc6511f4b40bff339844f54c31, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -1694,14 +1694,12 @@ VideoPlayer:
   m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
   m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
@@ -2167,27 +2165,27 @@ MonoBehaviour:
   idleAnimSr: {fileID: 934715089}
   attackSr: {fileID: 728956468}
   rawAttack: {fileID: 867305083}
-  idle: {fileID: 32900000, guid: abace0cca716bcf498c0acdb2da39b21, type: 3}
-  p1LowKick: {fileID: 32900000, guid: b390707a9d7f54843a8574e7da2ca540, type: 3}
-  p1HighKick: {fileID: 32900000, guid: b390707a9d7f54843a8574e7da2ca540, type: 3}
-  p1LowPunch: {fileID: 32900000, guid: b390707a9d7f54843a8574e7da2ca540, type: 3}
-  p1HighPunch: {fileID: 32900000, guid: b390707a9d7f54843a8574e7da2ca540, type: 3}
-  p1Special: {fileID: 32900000, guid: b390707a9d7f54843a8574e7da2ca540, type: 3}
-  p2LowKick: {fileID: 32900000, guid: b390707a9d7f54843a8574e7da2ca540, type: 3}
-  p2HighKick: {fileID: 32900000, guid: b390707a9d7f54843a8574e7da2ca540, type: 3}
-  p2LowPunch: {fileID: 32900000, guid: b390707a9d7f54843a8574e7da2ca540, type: 3}
-  p2HighPunch: {fileID: 32900000, guid: b390707a9d7f54843a8574e7da2ca540, type: 3}
-  p2Special: {fileID: 32900000, guid: b390707a9d7f54843a8574e7da2ca540, type: 3}
-  mp1LowKick: {fileID: 32900000, guid: 3534cb0d937a0f24c9e24074fda77938, type: 3}
-  mp1HighKick: {fileID: 32900000, guid: 3534cb0d937a0f24c9e24074fda77938, type: 3}
-  mp1LowPunch: {fileID: 32900000, guid: 3534cb0d937a0f24c9e24074fda77938, type: 3}
-  mp1HighPunch: {fileID: 32900000, guid: 3534cb0d937a0f24c9e24074fda77938, type: 3}
-  mp1Special: {fileID: 32900000, guid: 3534cb0d937a0f24c9e24074fda77938, type: 3}
-  mp2LowKick: {fileID: 32900000, guid: 3534cb0d937a0f24c9e24074fda77938, type: 3}
-  mp2HighKick: {fileID: 32900000, guid: 3534cb0d937a0f24c9e24074fda77938, type: 3}
-  mp2LowPunch: {fileID: 32900000, guid: 3534cb0d937a0f24c9e24074fda77938, type: 3}
-  mp2HighPunch: {fileID: 32900000, guid: 3534cb0d937a0f24c9e24074fda77938, type: 3}
-  mp2Special: {fileID: 32900000, guid: 3534cb0d937a0f24c9e24074fda77938, type: 3}
+  idle: {fileID: 32900000, guid: 494839dc6511f4b40bff339844f54c31, type: 3}
+  p1LowKick: {fileID: 32900000, guid: d81906d947ac3874d9b75b8cba4f7b9b, type: 3}
+  p1HighKick: {fileID: 32900000, guid: e270a26b5d20e4e469e773f746066c07, type: 3}
+  p1LowPunch: {fileID: 32900000, guid: c7875c6720c9f1b48b8aee35d8f3e0de, type: 3}
+  p1HighPunch: {fileID: 32900000, guid: bb7b83c0872fcd649aa02ae49ea39e32, type: 3}
+  p1Special: {fileID: 32900000, guid: b8afe65c478d6fd4ba3e21b99682307a, type: 3}
+  p2LowKick: {fileID: 32900000, guid: b95f1249a34fb714484e0b44e765f8b3, type: 3}
+  p2HighKick: {fileID: 32900000, guid: 08bc44778457f1e4fb1027b8042cce60, type: 3}
+  p2LowPunch: {fileID: 32900000, guid: c0342c65d9ff88249bc859ca20fad80d, type: 3}
+  p2HighPunch: {fileID: 32900000, guid: b8f4cb0be62aa5943b969580fefc03fd, type: 3}
+  p2Special: {fileID: 32900000, guid: 5278116ef340b32459ee17e910fc2aab, type: 3}
+  mp1LowKick: {fileID: 32900000, guid: a9439376154db50428152c5aabe464f6, type: 3}
+  mp1HighKick: {fileID: 32900000, guid: 568610b4ef5183c41ad9398644575b37, type: 3}
+  mp1LowPunch: {fileID: 32900000, guid: 01fd40075294e9345a927dd267a74ead, type: 3}
+  mp1HighPunch: {fileID: 32900000, guid: 4499a3cae5e0fa14aa10e14aa725b101, type: 3}
+  mp1Special: {fileID: 32900000, guid: b8afe65c478d6fd4ba3e21b99682307a, type: 3}
+  mp2LowKick: {fileID: 32900000, guid: d91de8ab30344f542bdb7e9a6ba700bc, type: 3}
+  mp2HighKick: {fileID: 32900000, guid: 6f78086b26b0622418006036dbb5f2a2, type: 3}
+  mp2LowPunch: {fileID: 32900000, guid: c4e2cc2484694004cb9389aa3645cf6b, type: 3}
+  mp2HighPunch: {fileID: 32900000, guid: d032f0ff150710246934be6860a54118, type: 3}
+  mp2Special: {fileID: 32900000, guid: 9a54fb39db549ee42961b1269dd4b48c, type: 3}
 --- !u!4 &827996546
 Transform:
   m_ObjectHideFlags: 0
@@ -2301,7 +2299,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 934715088}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: 494839dc6511f4b40bff339844f54c31, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -2314,14 +2312,12 @@ VideoPlayer:
   m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
   m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
   m_Looping: 1

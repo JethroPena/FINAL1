@@ -3,7 +3,37 @@ guid: 6e3b6e926b738ba4db6133562b9d15c2
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - playerOneName: {instanceID: 0}
+  - playerTwoName: {instanceID: 0}
+  - playerOneHPUI: {instanceID: 0}
+  - playerTwoHPUI: {instanceID: 0}
+  - specialOne: {instanceID: 0}
+  - specialTwo: {instanceID: 0}
+  - idleAnimSr: {instanceID: 0}
+  - attackSr: {instanceID: 0}
+  - rawAttack: {instanceID: 0}
+  - idle: {instanceID: 0}
+  - p1LowKick: {fileID: 32900000, guid: d81906d947ac3874d9b75b8cba4f7b9b, type: 3}
+  - p1HighKick: {fileID: 32900000, guid: e270a26b5d20e4e469e773f746066c07, type: 3}
+  - p1LowPunch: {fileID: 32900000, guid: c7875c6720c9f1b48b8aee35d8f3e0de, type: 3}
+  - p1HighPunch: {fileID: 32900000, guid: bb7b83c0872fcd649aa02ae49ea39e32, type: 3}
+  - p1Special: {fileID: 32900000, guid: b8afe65c478d6fd4ba3e21b99682307a, type: 3}
+  - p2LowKick: {instanceID: 0}
+  - p2HighKick: {instanceID: 0}
+  - p2LowPunch: {instanceID: 0}
+  - p2HighPunch: {instanceID: 0}
+  - p2Special: {instanceID: 0}
+  - mp1LowKick: {fileID: 32900000, guid: a9439376154db50428152c5aabe464f6, type: 3}
+  - mp1HighKick: {fileID: 32900000, guid: 568610b4ef5183c41ad9398644575b37, type: 3}
+  - mp1LowPunch: {fileID: 32900000, guid: 01fd40075294e9345a927dd267a74ead, type: 3}
+  - mp1HighPunch: {fileID: 32900000, guid: 4499a3cae5e0fa14aa10e14aa725b101, type: 3}
+  - mp1Special: {fileID: 32900000, guid: 0e865015abc8ffd40befb56904f87f61, type: 3}
+  - mp2LowKick: {instanceID: 0}
+  - mp2HighKick: {instanceID: 0}
+  - mp2LowPunch: {instanceID: 0}
+  - mp2HighPunch: {instanceID: 0}
+  - mp2Special: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
